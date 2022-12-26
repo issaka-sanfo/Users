@@ -1,4 +1,4 @@
-package com.isanf.users.service.web;
+package com.isanf.users.service;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -6,11 +6,9 @@ import java.io.OutputStreamWriter;
 import java.security.KeyPairGenerator;
 import java.security.NoSuchAlgorithmException;
 
-import org.bouncycastle.openssl.PEMWriter;
 import org.bouncycastle.util.io.pem.PemObject;
 import org.bouncycastle.util.io.pem.PemWriter;
 
-import lombok.experimental.var;
 
 public class GenerateKeyPair {
 	
